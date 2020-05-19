@@ -26,7 +26,7 @@ end
       element_index = 0
       min_integer_element = 0
         while element_index < src[row_index].count do 
-          if src[row_index][element_index].length < min_integer_element.length
+          if src[row_index][element_index] < min_integer_element
             min_integer_element = src[row_index][element_index]
           end
           element_index += 1
