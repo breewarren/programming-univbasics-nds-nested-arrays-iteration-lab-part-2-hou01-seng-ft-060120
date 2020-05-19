@@ -13,5 +13,5 @@ def find_min_in_nested_arrays(src)
     low_temperature_for_each_day << min_integer_element
     row_index += 1
   end
-  low_temperature_for_each_day(src)
+  low_temperature_for_each_day
 end
